@@ -1,40 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <title></title>
   <meta charset="utf-8">
   <style type="text/css">
-    .bloque1 {
-      background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
 
-      background-color: #00FF00;
+      @font-face {
+      font-family: The_Emperors_font;
+      src: url('assets/fonts/The_Emperors_font.woff');
+    }
+
+    .bloque1 {
+      background-color: rgb(161,023,047);
+      padding: 2em
+    }
+
+    .parrafo1{
+        font-family: "The_Emperors_font";
+        font-size: 50px;
+        text-align:center;
+        color: rgb(242,175,74);
+    }
+
+    .parrafo2{
+        text-align: center;
+        font-size: 25px;
+        color: rgb(255,255,255)
     }
     .bloque2 {
-        background-color: #ff0000
+        background-color: rgb(021,138,190);
+        padding: 1em 0em 1em 0em;
+
 
     }
-    .bloque3 {
-        background-color: #ff0000
+
+        .bloque3 {
+          background-image: url(assets/images/cuzco2.jpg);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          padding: 1px;
     }
+
+      .bloque4 {
+          font-family: "The_Emperors_font";
+          font-size: 60px;
+
+          padding: 1em
+
+
+      }
 
   </style>
 
 </head>
 
 <body>
-  <div class="bloque1">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <div class="bloque1" >
+    <p class="parrafo1" text-algin:"center"> Las Locuras del Eperador<br></p>
+    <p class="parrafo2"> Nuestra Primra Página Web</p>
+
+  </div>
+
+  <div class="bloque2" align="center">
+    <img src="assets/images/cuzco.jpg" width="60%" height="60%">
+
+
+  </div>
+
+  <div class="bloque3" align="right">
+    <p style="color:rgb(255,255,255);font-size: 30px; bold; ">
+      <span
+        style="font-family:The_Emperors_font; color: rgb(241,174,64); font-size: 40px">Cuzco!!</span><br>
+      Hoo, si...el veneno...<br>
+      El veneno para Cuzco...<br>
+      El veneno que usaremos para matar a Cuzco<br>
+      El veneno de Cuzco<br>
+      claro...<br>
+      Ese veneno<br>
+      <br>
+      <br>
+      <br>
     </p>
   </div>
 
-  <div class="bloque2">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <div class="bloque4">
+    <p style="text-align: center">Precios</p>
+      <ul list-style-type: >
+          <li>$10.00</li>
+          <li>$21.00</li>
+          <li>$35.00</li>
+      </ul>
     </p>
-  </div>
 
-  <div class="bloque3">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
+
   </div>
 
 </body>
+</html>
